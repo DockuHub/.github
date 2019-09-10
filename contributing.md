@@ -1,0 +1,17 @@
+## Development workflow
+- Develop on your own branch
+- Have meaningful branch names with the following structure
+    - !TODO Get branch name structure
+- Work on small features
+    - Good: Setup login GraphQL mutation
+    - Bad: Setup GraphQL
+- Document feature and use case before commiting (If applicable)
+    - Ex: User login
+        - Endpoint /login
+        - Authentications False
+        - Params Username String, Password String
+- Have meaningful commit messages
+    - Good: Implements login mutation for users
+    - Bad: Adds login
+- Always have a peer review your PR
+- Once merged to master review that nothing has broken
